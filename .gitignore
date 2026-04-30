@@ -1,0 +1,28 @@
+# Python virtual environment
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# dbt generated files
+dbt_project/target/
+dbt_project/dbt_packages/
+dbt_project/logs/
+dbt_project/.user.yml
+
+# Airflow generated files
+airflow/logs/
+airflow/plugins/
+airflow/config/
+airflow/airflow-webserver.pid
+
+# Environment/secrets
+.env
+*.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
